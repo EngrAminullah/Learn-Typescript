@@ -1,12 +1,10 @@
-"use strict";
-exports.__esModule = true;
-var App = /** @class */ (function () {
-    function App() {
-    }
-    App.prototype.test = function () {
-        console.log("Test function working");
-    };
-    return App;
-}());
-var a = new App();
-a.test();
+// export {}
+// class App{
+//     test(){
+//         console.log("Test function working")
+//     }
+// }
+// let a= new App();
+// a.test()
+var a = 10.10;
+console.warn(a);
