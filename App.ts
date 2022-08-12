@@ -50,12 +50,25 @@
 //     }
 // }
 // console.log(users.getName())
-//---------- Function---------------
+// //---------- Function---------------
 
-function cals(a: number, b?: number): number {
-    return b ? a + b : a
-    // "hello"
+// function cals(a: number, b?: number): number {
+//     return b ? a + b : a
+//     // "hello"
 
 
+// }
+// console.log(cals(10 + 10, 50))
+
+class App {
+    name: string = "Aminullah";
+    constructor(name: string) {
+        this.name = name
+    }
+    getName(): string {
+        // console.warn(this.name)
+        return this.name
+    }
 }
-console.log(cals(10 + 10, 50))
+let a1 = new App("Amin");
+console.log(a1.getName())

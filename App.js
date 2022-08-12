@@ -43,9 +43,22 @@
 //     }
 // }
 // console.log(users.getName())
-//---------- Function---------------
-function cals(a, b) {
-    return b ? a + b : a;
-    // "hello"
-}
-console.log(cals(10 + 10, 50));
+// //---------- Function---------------
+// function cals(a: number, b?: number): number {
+//     return b ? a + b : a
+//     // "hello"
+// }
+// console.log(cals(10 + 10, 50))
+var App = /** @class */ (function () {
+    function App(name) {
+        this.name = "Aminullah";
+        this.name = name;
+    }
+    App.prototype.getName = function () {
+        // console.warn(this.name)
+        return this.name;
+    };
+    return App;
+}());
+var a1 = new App("Amin");
+console.log(a1.getName());
