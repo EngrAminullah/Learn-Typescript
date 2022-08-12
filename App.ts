@@ -29,9 +29,25 @@
 // usersTyped.name='peter'
 // console.warn(usersTyped)
 
-//----------Union types----------
-let data: string | number | boolean = 'Amin'
-data = 0;
-data = true
+// //----------Union types----------
+// let data: string | number | boolean = 'Amin'
+// data = 0;
+// data = true
 
-console.warn(data)
+// console.warn(data)
+///.........Interface................
+
+interface userType {
+    name: string,
+    age: number
+    getName: () => string
+}
+let users: userType = {
+    name: 'Aminullah',
+    age: 30,
+    getName: function () {
+        return "Amin"
+    }
+}
+console.log(users.getName())
+
