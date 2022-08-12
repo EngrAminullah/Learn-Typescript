@@ -60,15 +60,33 @@
 // }
 // console.log(cals(10 + 10, 50))
 
-class App {
-    name: string = "Aminullah";
-    constructor(name: string) {
+// class App {
+//     name: string = "Aminullah";
+//     constructor(name: string) {
+//         this.name = name
+//     }
+//     getName(): string {
+//         // console.warn(this.name)
+//         return this.name
+//     }
+// }
+// let a1 = new App("Amin");
+// console.log(a1.getName())
+
+//------------ inheritance-------------
+class Parent {
+    name;
+    setName(name) {
         this.name = name
     }
-    getName(): string {
-        // console.warn(this.name)
+}
+
+class child extends Parent {
+
+    getName() {
         return this.name
     }
 }
-let a1 = new App("Amin");
-console.log(a1.getName())
+let c1 = new child();
+c1.setName("Bacha")
+console.log(c1.getName())
