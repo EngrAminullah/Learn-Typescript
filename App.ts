@@ -35,19 +35,27 @@
 // data = true
 
 // console.warn(data)
-///.........Interface................
+// ///.........Interface................
 
-interface userType {
-    name: string,
-    age: number
-    getName: () => string
-}
-let users: userType = {
-    name: 'Aminullah',
-    age: 30,
-    getName: function () {
-        return "Amin"
-    }
-}
-console.log(users.getName())
+// interface userType {
+//     name: string,
+//     age: number
+//     getName: () => string
+// }
+// let users: userType = {
+//     name: 'Aminullah',
+//     age: 30,
+//     getName: function () {
+//         return "Amin"
+//     }
+// }
+// console.log(users.getName())
+//---------- Function---------------
 
+function cals(a: number, b?: number): number {
+    return b ? a + b : a
+    // "hello"
+
+
+}
+console.log(cals(10 + 10, 50))
