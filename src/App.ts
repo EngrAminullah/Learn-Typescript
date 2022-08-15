@@ -73,20 +73,25 @@
 // let a1 = new App("Amin");
 // console.log(a1.getName())
 
-//------------ inheritance-------------
-class Parent {
-    name;
-    setName(name) {
-        this.name = name
-    }
-}
+// //------------ inheritance-------------
+// class Parent {
+//     name;
+//     setName(name) {
+//         this.name = name
+//     }
+// }
 
-class child extends Parent {
+// class child extends Parent {
 
-    getName() {
-        return this.name
-    }
-}
-let c1 = new child();
-c1.setName("Bacha")
-console.log(c1.getName())
+//     getName() {
+//         return this.name
+//     }
+// }
+// let c1 = new child();
+// c1.setName("Bacha")
+// console.log(c1.getName())
+
+
+/////////////------------------------------Programming with Mosh-------------------------
+
+

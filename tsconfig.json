@@ -2,6 +2,11 @@
     "compilerOptions": {
       "target": "es5",
       "module": "commonjs",
-      "sourceMap": true
+      "rootDir": "./src",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "removeComments": true,
+      "noEmitOnError": true,
+      
     }
   }
