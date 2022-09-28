@@ -76,4 +76,5 @@
 // let c1 = new child();
 // c1.setName("Bacha")
 // console.log(c1.getName())
-//-------------Namespace------------
+/////////////------------------------------Programming with Mosh-------------------------
+var a = 310;

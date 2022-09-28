@@ -1,5 +1,4 @@
 // export {}
-
 // class App{
 //     test(){
 //         console.log("Test function working")
@@ -13,14 +12,11 @@
 // data.push("Mansoor")
 // data[3]=true
 // console.log(data)
-
-
 // interface usersTyped{
 //     name:string,
 //     age:number,
 //     address:any
 // }
-
 // let usersTyped={
 //     name:'bruce',
 //     age:30,
@@ -28,15 +24,12 @@
 // }
 // usersTyped.name='peter'
 // console.warn(usersTyped)
-
 // //----------Union types----------
 // let data: string | number | boolean = 'Amin'
 // data = 0;
 // data = true
-
 // console.warn(data)
 // ///.........Interface................
-
 // interface userType {
 //     name: string,
 //     age: number
@@ -51,15 +44,11 @@
 // }
 // console.log(users.getName())
 // //---------- Function---------------
-
 // function cals(a: number, b?: number): number {
 //     return b ? a + b : a
 //     // "hello"
-
-
 // }
 // console.log(cals(10 + 10, 50))
-
 // class App {
 //     name: string = "Aminullah";
 //     constructor(name: string) {
@@ -72,7 +61,6 @@
 // }
 // let a1 = new App("Amin");
 // console.log(a1.getName())
-
 // //------------ inheritance-------------
 // class Parent {
 //     name;
@@ -80,9 +68,7 @@
 //         this.name = name
 //     }
 // }
-
 // class child extends Parent {
-
 //     getName() {
 //         return this.name
 //     }
@@ -90,9 +76,6 @@
 // let c1 = new child();
 // c1.setName("Bacha")
 // console.log(c1.getName())
-
-
 /////////////------------------------------Programming with Mosh-------------------------
-
-let a = 310
-let b = 215
+var a = 310;
+var b = 215;
